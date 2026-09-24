@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>OJANA Climatização e Assistência Técnica | Rio de Janeiro</title>
+
+  <meta name="description" content="OJANA Climatização e Assistência Técnica. Instalação, manutenção e limpeza de ar-condicionado, conserto de geladeiras e máquinas de lavar. Atendimento em todo o Rio de Janeiro.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #172033;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #071b35;
+      color: white;
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: #20d9ff;
+    }
+
+    .header-btn {
+      background: #20c96b;
+      color: white;
+      padding: 11px 18px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #071b35, #0b4670);
+      color: white;
+      padding: 80px 7%;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 18px;
+    }
+
+    .hero h1 span {
+      color: #20d9ff;
+    }
+
+    .hero p {
+      max-width: 750px;
+      margin: auto;
+      font-size: 19px;
+      color: #e5f4ff;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 24px;
+      margin: 6px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn-whatsapp {
+      background: #20c96b;
+      color: white;
+    }
+
+    .btn-services {
+      background: white;
+      color: #071b35;
+    }
+
+    section {
+      padding: 65px 7%;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section-title h2 {
+      font-size: 32px;
+      color: #071b35;
+    }
+
+    .section-title p {
+      color: #667085;
+      margin-top: 8px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px 25px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .icon {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      color: #071b35;
+      margin-bottom: 10px;
+      font-size: 21px;
+    }
+
+    .card p {
+      color: #667085;
+    }
+
+    .about {
+      background: white;
+    }
+
+    .about-content {
+      max-width: 850px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .about-content p {
+      font-size: 18px;
+      color: #526071;
+      margin-bottom: 15px;
+    }
+
+    .coverage {
+      background: #071b35;
+      color: white;
+      text-align: center;
+    }
+
+    .coverage h2 {
+      font-size: 34px;
+      margin-bottom: 15px;
+    }
+
+    .coverage p {
+      max-width: 750px;
+      margin: auto;
+      color: #dcefff;
+      font-size: 18px;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    .phone {
+      font-size: 28px;
+      font-weight: bold;
+      color: #071b35;
+      margin: 15px 0 25px;
+    }
+
+    footer {
+      background: #041326;
+      color: #b8c5d4;
+      text-align: center;
+      padding: 25px 15px;
+      font-size: 14px;
+    }
+
+    .whatsapp-float {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      width: 60px;
+      height: 60px;
+      background: #20c96b;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 30px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+      z-index: 2000;
+    }
+
+    @media (max-width: 800px) {
+      .services {
+        grid-template-columns: 1fr;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+      }
+
+      .header-btn {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    OJANA <span>Climatização</span>
+  </div>
+
+  <a class="header-btn"
+     href="https://wa.me/5521980969559?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento."
+     target="_blank">
+    WhatsApp
+  </a>
+</header>
+
+<section class="hero">
+  <h1>
+    OJANA <span>Climatização</span><br>
+    e Assistência Técnica
+  </h1>
+
+  <p>
+    Soluções profissionais para ar-condicionado,
+    geladeiras e máquinas de lavar, com atendimento
+    em todo o Rio de Janeiro.
+  </p>
+
+  <div class="buttons">
+    <a class="btn btn-whatsapp"
+       href="https://wa.me/5521980969559?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento."
+       target="_blank">
+      📱 Solicitar orçamento
+    </a>
+
+    <a class="btn btn-services" href="#servicos">
+      Ver serviços
+    </a>
+  </div>
+</section>
+
+<section id="servicos">
+
+  <div class="section-title">
+    <h2>Nossos Serviços</h2>
+    <p>Assistência técnica para sua casa ou empresa.</p>
+  </div>
+
+  <div class="services">
+
+    <div class="card">
+      <div class="icon">❄️</div>
+      <h3>Ar-Condicionado</h3>
+      <p>
+        Instalação, manutenção, limpeza, higienização,
+        diagnóstico e correção de problemas.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🧊</div>
+      <h3>Geladeiras</h3>
+      <p>
+        Conserto, manutenção e diagnóstico de falhas
+        em geladeiras e equipamentos de refrigeração.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🧺</div>
+      <h3>Máquinas de Lavar</h3>
+      <p>
+        Manutenção e assistência técnica para máquinas
+        de lavar e equipamentos domésticos.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🔧</div>
+      <h3>Manutenção</h3>
+      <p>
+        Manutenção preventiva e corretiva para manter
+        seus equipamentos funcionando corretamente.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🔍</div>
+      <h3>Diagnóstico</h3>
+      <p>
+        Identificação de problemas e avaliação técnica
+        para encontrar a solução adequada.
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="icon">⚙️</div>
+      <h3>Assistência Técnica</h3>
+      <p>
+        Atendimento profissional para equipamentos
+        de climatização, refrigeração e linha branca.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="about">
+
+  <div class="section-title">
+    <h2>Por que escolher a OJANA?</h2>
+  </div>
+
+  <div class="about-content">
+
+    <p>
+      A OJANA Climatização e Assistência Técnica trabalha
+      para oferecer atendimento profissional, diagnóstico
+      cuidadoso e soluções para seus equipamentos.
+    </p>
+
+    <p>
+      Nosso objetivo é proporcionar um serviço transparente,
+      com atenção às necessidades de cada cliente.
+    </p>
+
+  </div>
+</section>
+
+<section class="coverage">
+
+  <h2>📍 Atendimento em todo o Rio de Janeiro</h2>
+
+  <p>
+    Atendemos clientes em diferentes regiões do Rio de Janeiro.
+    Consulte a disponibilidade para o seu endereço diretamente
+    pelo WhatsApp.
+  </p>
+
+  <div class="buttons">
+
+    <a class="btn btn-whatsapp"
+       href="https://wa.me/5521980969559?text=Olá!%20Gostaria%20de%20consultar%20a%20disponibilidade%20de%20atendimento%20no%20meu%20endereço."
+       target="_blank">
+      Consultar atendimento
+    </a>
+
+  </div>
+
+</section>
+
+<section class="contact">
+
+  <div class="section-title">
+    <h2>Fale com a OJANA</h2>
+    <p>Solicite seu orçamento pelo WhatsApp.</p>
+  </div>
+
+  <div class="phone">
+    📱 (21) 98096-9559
+  </div>
+
+  <a class="btn btn-whatsapp"
+     href="https://wa.me/5521980969559?text=Olá!%20Vim%20pelo%20site%20da%20OJANA%20e%20gostaria%20de%20solicitar%20um%20orçamento."
+     target="_blank">
+    💬 Chamar no WhatsApp
+  </a>
+
+</section>
+
+<footer>
+  © 2026 OJANA Climatização e Assistência Técnica
+  <br>
+  Atendimento em todo o Rio de Janeiro
+</footer>
+
+<a class="whatsapp-float"
+   href="https://wa.me/5521980969559?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento."
+   target="_blank"
+   aria-label="WhatsApp">
+  💬
+</a>
+
+</body>
+</html>
